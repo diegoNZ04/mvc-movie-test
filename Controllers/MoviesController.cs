@@ -54,7 +54,7 @@ namespace MvcTest.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] MvcMovieModel mvcMovieModel)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] MvcMovieModel mvcMovieModel)
         {
             if (ModelState.IsValid)
             {
@@ -82,11 +82,9 @@ namespace MvcTest.Controllers
         }
 
         // POST: Movies/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] MvcMovieModel mvcMovieModel)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price,Rating")] MvcMovieModel mvcMovieModel)
         {
             if (id != mvcMovieModel.Id)
             {

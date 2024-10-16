@@ -281,3 +281,4 @@ C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\MvcTest\bin\Debug\net8.0\ru
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\MvcTest\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\MvcTest\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\MvcTest\obj\Debug\net8.0\MvcTest.csproj.Up2Date
+C:\Users\Samsung\OneDrive\Área de Trabalho\Projetos\MvcTest\obj\Debug\net8.0\MvcTest.sourcelink.json
